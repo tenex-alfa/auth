@@ -1,0 +1,100 @@
+provider:
+  environment:
+    ${name}: ${service}-${name}
+    ${name}_pool: !Ref ${name}CognitoUserPool
+    ${name}_client: !Ref ${name}UserPoolClientId
+
+resources:
+  Resources:
+    ${name}CognitoUserPool:
+      Type: "AWS::Cognito::UserPool"
+      Properties:
+        MfaConfiguration: OFF
+        UserPoolName: ${service}-${name}-pool
+        UsernameAttributes:
+          - email
+        Policies:
+          PasswordPolicy:
+            MinimumLength: 6
+            RequireLowercase: False
+            RequireNumbers: True
+            RequireSymbols: False
+            RequireUppercase: True
+    ${name}UserPoolClientId:
+      Type: "AWS::Cognito::UserPoolClient"
+      Properties:
+        ClientName: ${service}-${name}-client
+        GenerateSecret: False
+        UserPoolId:
+          Ref: ${name}CognitoUserPool
+    ApiGatewayAuthorizer:
+      DependsOn:
+        - ApiGatewayRestApi
+      Type: AWS::ApiGateway::Authorizer
+      Properties:
+        Name: cognito-authorizer
+        IdentitySource: method.request.header.Authorization
+        RestApiId:
+          Ref: ApiGatewayRestApi
+        Type: COGNITO_USER_POOLS
+        ProviderARNs:
+          - Fn::GetAtt: ["${name}CognitoUserPool", Arn]
+  # Print out the Id of the User Pool that is created
+  # Outputs:
+  #   ${name}UserPoolId:
+  #     Value:
+  #       Ref: ${name}CognitoUserPool
+  #     Name: ${name}CognitoUserPool
+  #   ${name}UserPoolClientId:
+  #     Value:
+  #       Ref: ${name}UserPoolClientId
+  #     Name: ${name}CognitoUserPoolClient
+  # Resources:
+  #   CognitoUserPool:
+  #     Type: "AWS::Cognito::UserPool"
+  #     Properties:
+  #       MfaConfiguration: OFF
+  #       UserPoolName: ${service}-${name}-pool
+  #       UsernameAttributes:
+  #         - email
+  #       Policies:
+  #         PasswordPolicy:
+  #           MinimumLength: 6
+  #           RequireLowercase: False
+  #           RequireNumbers: True
+  #           RequireSymbols: False
+  #           RequireUppercase: True
+  #   CognitoUserPoolClient:
+  #     Type: "AWS::Cognito::UserPoolClient"
+  #     Properties:
+  #       ClientName: ${service}-${name}-client
+  #       GenerateSecret: False
+  #       UserPoolId:
+  #         Ref: CognitoUserPool
+  #   ApiGatewayAuthorizer:
+  #     DependsOn:
+  #       - ApiGatewayRestApi
+  #     Type: AWS::ApiGateway::Authorizer
+  #     Properties:
+  #       Name: cognito-authorizer
+  #       IdentitySource: method.request.header.Authorization
+  #       RestApiId:
+  #         Ref: ApiGatewayRestApi
+  #       Type: COGNITO_USER_POOLS
+  #       ProviderARNs:
+  #         - Fn::GetAtt: [CognitoUserPool, Arn]
+  # # Outputs:
+  # #   UserPoolId:
+  # #     Value:
+  # #       Ref: CognitoUserPool
+  # #     Export:
+  # #       Name: CognitoUserPool
+  # #   UserPoolClientId:
+  # #     Value:
+  # #       Ref: CognitoUserPoolClient
+  # # Outputs:
+  # #   UserPoolClientId:
+  # #     Value:
+  # #       Ref: CognitoUserPoolClient
+  # #     Export:
+  # #       Name: ${name}-UserPoolClientId

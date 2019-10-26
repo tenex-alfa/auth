@@ -1,0 +1,32 @@
+# Here we can declare which resource template
+# Should be used in diffent selected types
+types:
+  # Serverless MIT provider
+  serverless: serverless.yml
+
+# Here we have the allowed templates to be inputted
+template:
+  intent: [create, remove, get, enable, get-token]
+  username: String
+  password: String
+  token?: String
+  config?:
+    autoEnable?: Boolean
+    email?: Boolean
+
+addOn:
+  authenticate():
+    functions:
+      ${function}:
+        name: test
+
+mock:
+  service: my-test-service4
+  name: myTestService3
+  args:
+    - username: erik.rehn19@gmail.com
+      password: myPass1
+      intent: get
+      config:
+        autoEnable: true
+        email: false

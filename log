@@ -1,0 +1,527 @@
+c10:26:54 AM - Starting compilation in watch mode...
+
+
+10:27:03 AM - Found 0 errors. Watching for file changes.
+c10:28:55 AM - File change detected. Starting incremental compilation...
+
+
+10:28:55 AM - Found 0 errors. Watching for file changes.
+c10:31:07 AM - File change detected. Starting incremental compilation...
+
+
+10:31:07 AM - Found 0 errors. Watching for file changes.
+c10:31:37 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+src/lib/create-user.ts(28,36): error TS2345: Argument of type 'input' is not assignable to parameter of type 'input'.
+  Types of property 'config' are incompatible.
+    Property 'noVerify' is missing in type '{ autoEnable: boolean; }' but required in type '{ noVerify: boolean; }'.
+
+10:31:37 AM - Found 2 errors. Watching for file changes.
+c10:31:56 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+
+10:31:56 AM - Found 1 error. Watching for file changes.
+c10:33:22 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+
+10:33:22 AM - Found 1 error. Watching for file changes.
+c10:33:31 AM - File change detected. Starting incremental compilation...
+
+src/lib/validate-user.ts(25,13): error TS1005: ';' expected.
+src/lib/validate-user.ts(25,29): error TS1005: ';' expected.
+src/lib/validate-user.ts(25,32): error TS1005: ';' expected.
+
+10:33:31 AM - Found 3 errors. Watching for file changes.
+c10:33:41 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+
+10:33:41 AM - Found 1 error. Watching for file changes.
+c10:33:45 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+src/lib/create-user.ts(4,26): error TS2307: Cannot find module './validate-user'.
+
+10:33:45 AM - Found 2 errors. Watching for file changes.
+c10:33:46 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+
+10:33:46 AM - Found 1 error. Watching for file changes.
+c10:33:48 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(17,105): error TS2741: Property 'autoEnable' is missing in type '{ noVerify: boolean; }' but required in type '{ autoEnable: boolean; }'.
+
+10:33:48 AM - Found 1 error. Watching for file changes.
+c10:34:22 AM - File change detected. Starting incremental compilation...
+
+
+10:34:22 AM - Found 0 errors. Watching for file changes.
+c10:34:33 AM - File change detected. Starting incremental compilation...
+
+
+10:34:33 AM - Found 0 errors. Watching for file changes.
+c10:34:48 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(18,41): error TS2554: Expected 2-3 arguments, but got 1.
+
+10:34:49 AM - Found 1 error. Watching for file changes.
+c10:34:53 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(18,41): error TS2304: Cannot find name 'enable'.
+
+10:34:53 AM - Found 1 error. Watching for file changes.
+c10:35:00 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(18,41): error TS2304: Cannot find name 'enable'.
+src/lib/create-user.ts(4,10): error TS2305: Module '"./enable"' has no exported member 'validate'.
+
+10:35:00 AM - Found 2 errors. Watching for file changes.
+c10:35:04 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(18,41): error TS2304: Cannot find name 'enable'.
+
+10:35:05 AM - Found 1 error. Watching for file changes.
+c10:35:13 AM - File change detected. Starting incremental compilation...
+
+
+10:35:14 AM - Found 0 errors. Watching for file changes.
+c10:35:17 AM - File change detected. Starting incremental compilation...
+
+
+10:35:17 AM - Found 0 errors. Watching for file changes.
+c10:35:27 AM - File change detected. Starting incremental compilation...
+
+
+10:35:27 AM - Found 0 errors. Watching for file changes.
+c10:36:10 AM - File change detected. Starting incremental compilation...
+
+
+10:36:10 AM - Found 0 errors. Watching for file changes.
+c10:36:55 AM - File change detected. Starting incremental compilation...
+
+
+10:36:55 AM - Found 0 errors. Watching for file changes.
+c10:37:00 AM - File change detected. Starting incremental compilation...
+
+src/lib/remove-user.ts(15,7): error TS1134: Variable declaration expected.
+src/lib/remove-user.ts(15,14): error TS1109: Expression expected.
+
+10:37:00 AM - Found 2 errors. Watching for file changes.
+c10:37:07 AM - File change detected. Starting incremental compilation...
+
+
+10:37:07 AM - Found 0 errors. Watching for file changes.
+c10:37:42 AM - File change detected. Starting incremental compilation...
+
+
+10:37:42 AM - Found 0 errors. Watching for file changes.
+c10:37:44 AM - File change detected. Starting incremental compilation...
+
+
+10:37:44 AM - Found 0 errors. Watching for file changes.
+c10:37:49 AM - File change detected. Starting incremental compilation...
+
+
+10:37:49 AM - Found 0 errors. Watching for file changes.
+c10:39:05 AM - File change detected. Starting incremental compilation...
+
+
+10:39:06 AM - Found 0 errors. Watching for file changes.
+c10:39:22 AM - File change detected. Starting incremental compilation...
+
+
+10:39:22 AM - Found 0 errors. Watching for file changes.
+c10:39:29 AM - File change detected. Starting incremental compilation...
+
+
+10:39:29 AM - Found 0 errors. Watching for file changes.
+c10:39:35 AM - File change detected. Starting incremental compilation...
+
+
+10:39:35 AM - Found 0 errors. Watching for file changes.
+c10:39:38 AM - File change detected. Starting incremental compilation...
+
+
+10:39:38 AM - Found 0 errors. Watching for file changes.
+c10:39:40 AM - File change detected. Starting incremental compilation...
+
+
+10:39:40 AM - Found 0 errors. Watching for file changes.
+c10:40:27 AM - File change detected. Starting incremental compilation...
+
+
+10:40:27 AM - Found 0 errors. Watching for file changes.
+c10:41:27 AM - File change detected. Starting incremental compilation...
+
+
+10:41:27 AM - Found 0 errors. Watching for file changes.
+c10:42:26 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-user.ts(4,22): error TS7016: Could not find a declaration file for module 'jsonwebtoken'. '/home/erikrehn/Desktop/js/tx/resource/authentication/node_modules/jsonwebtoken/index.js' implicitly has an 'any' type.
+  Try `npm install @types/jsonwebtoken` if it exists or add a new declaration (.d.ts) file containing `declare module 'jsonwebtoken';`
+
+10:42:26 AM - Found 1 error. Watching for file changes.
+c10:42:30 AM - File change detected. Starting incremental compilation...
+
+
+10:42:30 AM - Found 0 errors. Watching for file changes.
+c10:43:28 AM - File change detected. Starting incremental compilation...
+
+
+10:43:28 AM - Found 0 errors. Watching for file changes.
+c10:43:33 AM - File change detected. Starting incremental compilation...
+
+
+10:43:33 AM - Found 0 errors. Watching for file changes.
+c10:43:47 AM - File change detected. Starting incremental compilation...
+
+
+10:43:47 AM - Found 0 errors. Watching for file changes.
+c10:44:00 AM - File change detected. Starting incremental compilation...
+
+
+10:44:00 AM - Found 0 errors. Watching for file changes.
+c10:44:09 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(20,41): error TS2304: Cannot find name 'g'.
+
+10:44:09 AM - Found 1 error. Watching for file changes.
+c10:44:15 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(20,41): error TS2304: Cannot find name 'g'.
+
+10:44:15 AM - Found 1 error. Watching for file changes.
+c10:44:21 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(21,49): error TS2345: Argument of type '{ request: { username: any; password: any; ClientId: string; UserPoolId: string; }; config: { autoEnable: boolean; }; }' is not assignable to parameter of type 'string'.
+
+10:44:22 AM - Found 1 error. Watching for file changes.
+c10:44:35 AM - File change detected. Starting incremental compilation...
+
+
+10:44:35 AM - Found 0 errors. Watching for file changes.
+c10:44:46 AM - File change detected. Starting incremental compilation...
+
+
+10:44:46 AM - Found 0 errors. Watching for file changes.
+c10:44:51 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(22,41): error TS2304: Cannot find name 'remove'.
+
+10:44:51 AM - Found 1 error. Watching for file changes.
+c10:45:06 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(22,41): error TS2304: Cannot find name 'remove'.
+
+10:45:06 AM - Found 1 error. Watching for file changes.
+c10:45:20 AM - File change detected. Starting incremental compilation...
+
+
+10:45:20 AM - Found 0 errors. Watching for file changes.
+c10:45:41 AM - File change detected. Starting incremental compilation...
+
+
+10:45:42 AM - Found 0 errors. Watching for file changes.
+c10:45:57 AM - File change detected. Starting incremental compilation...
+
+src/lib/login.ts(2,22): error TS2307: Cannot find module './config'.
+src/lib/login.ts(5,22): error TS7031: Binding element 'username' implicitly has an 'any' type.
+src/lib/login.ts(5,32): error TS7031: Binding element 'password' implicitly has an 'any' type.
+src/lib/login.ts(15,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/login.ts(15,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/login.ts(24,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+
+10:45:57 AM - Found 6 errors. Watching for file changes.
+c10:46:12 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(2,22): error TS2307: Cannot find module './config'.
+src/lib/get-token.ts(5,22): error TS7031: Binding element 'username' implicitly has an 'any' type.
+src/lib/get-token.ts(5,32): error TS7031: Binding element 'password' implicitly has an 'any' type.
+src/lib/get-token.ts(15,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(15,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(24,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+
+10:46:13 AM - Found 6 errors. Watching for file changes.
+c10:46:28 AM - File change detected. Starting incremental compilation...
+
+
+10:46:28 AM - Found 0 errors. Watching for file changes.
+c10:46:38 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(19,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(19,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(20,9): error TS2304: Cannot find name 'cognitoUser'.
+src/lib/get-token.ts(20,38): error TS2304: Cannot find name 'authDetails'.
+src/lib/get-token.ts(22,25): error TS7006: Parameter 'data' implicitly has an 'any' type.
+src/lib/get-token.ts(23,25): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/lib/get-token.ts(28,23): error TS2304: Cannot find name 'func'.
+
+10:46:38 AM - Found 7 errors. Watching for file changes.
+c10:46:50 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(19,41): error TS2304: Cannot find name 'userData'.
+src/lib/get-token.ts(21,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(21,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(22,38): error TS2304: Cannot find name 'authDetails'.
+src/lib/get-token.ts(30,23): error TS2304: Cannot find name 'func'.
+
+10:46:50 AM - Found 5 errors. Watching for file changes.
+c10:46:58 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(19,29): error TS2304: Cannot find name 'AuthenticationDetails'.
+src/lib/get-token.ts(19,51): error TS2304: Cannot find name 'authData'.
+src/lib/get-token.ts(20,41): error TS2304: Cannot find name 'userData'.
+src/lib/get-token.ts(22,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(22,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(31,23): error TS2304: Cannot find name 'func'.
+
+10:46:58 AM - Found 6 errors. Watching for file changes.
+c10:47:07 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(18,24): error TS2552: Cannot find name 'Username'. Did you mean 'username'?
+src/lib/get-token.ts(18,34): error TS2552: Cannot find name 'Password'. Did you mean 'password'?
+src/lib/get-token.ts(19,11): error TS2451: Cannot redeclare block-scoped variable 'pool'.
+src/lib/get-token.ts(19,38): error TS2304: Cannot find name 'poolData'.
+src/lib/get-token.ts(20,24): error TS2552: Cannot find name 'Username'. Did you mean 'username'?
+src/lib/get-token.ts(22,11): error TS2451: Cannot redeclare block-scoped variable 'pool'.
+src/lib/get-token.ts(23,29): error TS2304: Cannot find name 'AuthenticationDetails'.
+src/lib/get-token.ts(26,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(26,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(35,23): error TS2304: Cannot find name 'func'.
+
+10:47:07 AM - Found 10 errors. Watching for file changes.
+c10:47:37 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(18,44): error TS2552: Cannot find name 'Password'. Did you mean 'password'?
+src/lib/get-token.ts(19,50): error TS2448: Block-scoped variable 'pool' used before its declaration.
+src/lib/get-token.ts(21,29): error TS2304: Cannot find name 'AuthenticationDetails'.
+src/lib/get-token.ts(24,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(24,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(33,23): error TS2304: Cannot find name 'func'.
+
+10:47:38 AM - Found 6 errors. Watching for file changes.
+c10:47:57 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(24,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(24,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(33,23): error TS2304: Cannot find name 'func'.
+
+10:47:57 AM - Found 3 errors. Watching for file changes.
+c10:48:08 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(24,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(24,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(31,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+src/lib/get-token.ts(34,23): error TS2304: Cannot find name 'func'.
+
+10:48:08 AM - Found 4 errors. Watching for file changes.
+c10:48:09 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(24,20): error TS7006: Parameter 'resolve' implicitly has an 'any' type.
+src/lib/get-token.ts(24,29): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(32,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+src/lib/get-token.ts(35,23): error TS2304: Cannot find name 'func'.
+
+10:48:09 AM - Found 4 errors. Watching for file changes.
+c10:48:12 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(24,34): error TS7006: Parameter 'reject' implicitly has an 'any' type.
+src/lib/get-token.ts(32,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+src/lib/get-token.ts(35,23): error TS2304: Cannot find name 'func'.
+
+10:48:13 AM - Found 3 errors. Watching for file changes.
+c10:48:20 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(32,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+src/lib/get-token.ts(35,23): error TS2304: Cannot find name 'func'.
+
+10:48:20 AM - Found 2 errors. Watching for file changes.
+c10:48:23 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-token.ts(32,51): error TS2339: Property 'idToken' does not exist on type 'unknown'.
+
+10:48:23 AM - Found 1 error. Watching for file changes.
+c10:48:35 AM - File change detected. Starting incremental compilation...
+
+
+10:48:35 AM - Found 0 errors. Watching for file changes.
+c10:48:49 AM - File change detected. Starting incremental compilation...
+
+
+10:48:49 AM - Found 0 errors. Watching for file changes.
+c10:49:17 AM - File change detected. Starting incremental compilation...
+
+
+10:49:20 AM - Found 0 errors. Watching for file changes.
+c10:49:56 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(24,44): error TS2304: Cannot find name 'getTo'.
+
+10:49:56 AM - Found 1 error. Watching for file changes.
+c10:50:04 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(24,44): error TS2304: Cannot find name 'getTo'.
+
+10:50:04 AM - Found 1 error. Watching for file changes.
+c10:50:08 AM - File change detected. Starting incremental compilation...
+
+
+10:50:08 AM - Found 0 errors. Watching for file changes.
+c10:51:27 AM - File change detected. Starting incremental compilation...
+
+
+10:51:27 AM - Found 0 errors. Watching for file changes.
+c10:51:40 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,38): error TS2554: Expected 2 arguments, but got 1.
+
+10:51:41 AM - Found 1 error. Watching for file changes.
+c10:51:51 AM - File change detected. Starting incremental compilation...
+
+
+10:51:51 AM - Found 0 errors. Watching for file changes.
+c10:52:01 AM - File change detected. Starting incremental compilation...
+
+
+10:52:01 AM - Found 0 errors. Watching for file changes.
+c10:52:27 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-user.ts(14,33): error TS2304: Cannot find name 'login'.
+src/lib/get-user.ts(14,49): error TS2304: Cannot find name 'password'.
+
+10:52:27 AM - Found 2 errors. Watching for file changes.
+c10:52:51 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,38): error TS2554: Expected 3 arguments, but got 2.
+src/lib/get-user.ts(14,33): error TS2304: Cannot find name 'login'.
+
+10:52:52 AM - Found 2 errors. Watching for file changes.
+c10:53:03 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,38): error TS2554: Expected 3 arguments, but got 2.
+src/lib/get-user.ts(15,52): error TS2554: Expected 1 arguments, but got 2.
+
+10:53:03 AM - Found 2 errors. Watching for file changes.
+c10:53:18 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,38): error TS2554: Expected 3 arguments, but got 2.
+src/lib/get-user.ts(15,44): error TS2345: Argument of type '{ username: string; password: string; }' is not assignable to parameter of type 'input'.
+  Object literal may only specify known properties, and 'username' does not exist in type 'input'.
+
+10:53:18 AM - Found 2 errors. Watching for file changes.
+c10:53:22 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,38): error TS2554: Expected 3 arguments, but got 2.
+src/lib/get-user.ts(18,44): error TS2345: Argument of type '{ username: string; password: string; }' is not assignable to parameter of type 'input'.
+  Object literal may only specify known properties, and 'username' does not exist in type 'input'.
+
+10:53:22 AM - Found 2 errors. Watching for file changes.
+c10:53:39 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,61): error TS2554: Expected 1 arguments, but got 2.
+src/lib/get-user.ts(18,10): error TS2304: Cannot find name 'token'.
+src/lib/get-user.ts(19,44): error TS2345: Argument of type '{ username: any; password: any; }' is not assignable to parameter of type 'input'.
+  Object literal may only specify known properties, and 'username' does not exist in type 'input'.
+src/lib/get-user.ts(19,44): error TS18004: No value exists in scope for the shorthand property 'username'. Either declare one or provide an initializer.
+src/lib/get-user.ts(19,54): error TS18004: No value exists in scope for the shorthand property 'password'. Either declare one or provide an initializer.
+src/lib/get-user.ts(20,23): error TS2304: Cannot find name 'token'.
+
+10:53:39 AM - Found 6 errors. Watching for file changes.
+c10:53:52 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,61): error TS2554: Expected 1 arguments, but got 2.
+src/lib/get-user.ts(19,10): error TS2304: Cannot find name 'token'.
+src/lib/get-user.ts(21,23): error TS2304: Cannot find name 'token'.
+
+10:53:52 AM - Found 3 errors. Watching for file changes.
+c10:53:59 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,61): error TS2554: Expected 1 arguments, but got 2.
+src/lib/get-user.ts(19,10): error TS2304: Cannot find name 'token'.
+src/lib/get-user.ts(21,23): error TS2304: Cannot find name 'token'.
+
+10:53:59 AM - Found 3 errors. Watching for file changes.
+c10:54:10 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,61): error TS2554: Expected 1 arguments, but got 2.
+
+10:54:10 AM - Found 1 error. Watching for file changes.
+c10:54:14 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(23,61): error TS2554: Expected 1 arguments, but got 2.
+
+10:54:14 AM - Found 1 error. Watching for file changes.
+c10:54:35 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(20,9): error TS1136: Property assignment expected.
+src/index.ts(20,64): error TS1128: Declaration or statement expected.
+src/index.ts(35,1): error TS1128: Declaration or statement expected.
+
+10:54:35 AM - Found 3 errors. Watching for file changes.
+c10:54:46 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(26,61): error TS2554: Expected 1 arguments, but got 2.
+
+10:54:46 AM - Found 1 error. Watching for file changes.
+c10:54:51 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(27,61): error TS2554: Expected 1 arguments, but got 2.
+
+10:54:51 AM - Found 1 error. Watching for file changes.
+c10:54:54 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(27,61): error TS2554: Expected 1 arguments, but got 2.
+
+10:54:54 AM - Found 1 error. Watching for file changes.
+c10:55:09 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(27,61): error TS2554: Expected 1 arguments, but got 2.
+
+10:55:09 AM - Found 1 error. Watching for file changes.
+c10:55:16 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(27,46): error TS2345: Argument of type '{ request: { username: any; password: any; ClientId: string; UserPoolId: string; }; config: { autoEnable: boolean; }; }' is not assignable to parameter of type 'input'.
+  Types of property 'request' are incompatible.
+    Property 'token' is missing in type '{ username: any; password: any; ClientId: string; UserPoolId: string; }' but required in type '{ token: string; username: string; password: string; UserPoolId: string; ClientId: string; }'.
+
+10:55:17 AM - Found 1 error. Watching for file changes.
+c10:55:28 AM - File change detected. Starting incremental compilation...
+
+src/index.ts(30,46): error TS2345: Argument of type '{ request: { username: any; password: any; ClientId: string; UserPoolId: string; }; config: { autoEnable: boolean; }; }' is not assignable to parameter of type 'input'.
+  Types of property 'request' are incompatible.
+    Property 'token' is missing in type '{ username: any; password: any; ClientId: string; UserPoolId: string; }' but required in type '{ token: string; username: string; password: string; UserPoolId: string; ClientId: string; }'.
+
+10:55:28 AM - Found 1 error. Watching for file changes.
+c10:55:57 AM - File change detected. Starting incremental compilation...
+
+
+10:55:57 AM - Found 0 errors. Watching for file changes.
+c10:55:59 AM - File change detected. Starting incremental compilation...
+
+
+10:55:59 AM - Found 0 errors. Watching for file changes.
+c10:56:36 AM - File change detected. Starting incremental compilation...
+
+src/lib/get-user.ts(22,5): error TS1109: Expression expected.
+
+10:56:36 AM - Found 1 error. Watching for file changes.
+c10:56:45 AM - File change detected. Starting incremental compilation...
+
+
+10:56:45 AM - Found 0 errors. Watching for file changes.
+c10:56:54 AM - File change detected. Starting incremental compilation...
+
+
+10:56:54 AM - Found 0 errors. Watching for file changes.
+c10:57:12 AM - File change detected. Starting incremental compilation...
+
+
+10:57:12 AM - Found 0 errors. Watching for file changes.
+c10:57:12 AM - File change detected. Starting incremental compilation...
+
+
+10:57:12 AM - Found 0 errors. Watching for file changes.
